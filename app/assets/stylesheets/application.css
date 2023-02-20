@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ .container {
+  margin: 0 auto;
+  margin: 50px;
+  padding: 50px;
+ }
+
+ form {
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ input, label {
+  display:block;
+}

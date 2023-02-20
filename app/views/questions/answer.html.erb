@@ -1,0 +1,12 @@
+<div class="d-block border-start border-5 p-2 m-3">
+  <%= @question %>
+  <p class="p-2"><em>&mdash;You</em></p>
+</div>
+
+<div class="d-block border-start border-5 p-2 m-3 bg-warning bg-opacity-10">
+  <%=  @answer %>
+  <p class="p-2"><em>&mdash; Your Coach</em></p>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>
